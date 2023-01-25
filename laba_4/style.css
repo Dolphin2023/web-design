@@ -1,0 +1,45 @@
+*{
+   box-sizing: border-box;
+}
+
+h1{
+   text-align: center;
+}
+
+.caption_1, .caption_2, .caption_3{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.caption_1{
+   background-color: lightskyblue;
+   border: 2px  solid black;
+   margin: 10px;
+}
+
+.caption_2{
+   background-color: lightskyblue;
+   border: 2px  solid black;
+   margin: 10px;
+}
+
+.caption_3{
+   background-color: lightskyblue;
+   border: 2px  solid black;
+   margin: 10px;
+}
+
+
+.header{
+   width: 100%;
+   height: 20%;
+}
+
+.header_1, .header_2, .header_3{
+   font-size: 10px;
+   text-align: center;
+   border: 2px solid black; 
+   width: 20%;
+   background-color: lavender;
+   float: right;
+}
