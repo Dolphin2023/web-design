@@ -1,0 +1,45 @@
+*{
+   box-sizing: border-box;
+}
+
+h1{
+   text-align: center;
+}
+
+.caption-one, .caption-two, .caption-three{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.caption-one{
+   background-color: coral;
+   border: 2px  solid black;
+   margin: 10px;
+}
+
+.caption-two{
+   background-color: coral;
+   border: 2px  solid black;
+   margin: 10px;
+}
+
+.caption-three{
+   background-color: coral;
+   border: 2px  solid black;
+   margin: 10px;
+}
+
+
+.header_out{
+   width: 100%;
+   height: 20%;
+}
+
+.header{
+   font-size: 10px;
+   text-align: center;
+   border: 2px solid black; 
+   width: 20%;
+   background-color: lavender;
+   float: right;
+}
